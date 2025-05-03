@@ -1,46 +1,157 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<title>種口暁人のWebサイト</title>
-<meta name="keywords" content="ページのキーワードA,B,C">
-<meta name="description" content="ページの説明">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akito Taneguchi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.19/dist/full.min.css" rel="stylesheet" type="text/css" />
 </head>
-<body>
-<div id="outer">
-<header><div id="header-container"><div id="head-inner"><h1>種口暁人のWebサイト</h1>
-<p class="description">TohokuNLP 鈴木潤研究室所属 B4</p></div></div>
-</header>
-<div id="content-wrapper">
-<main>
-<div id="inner">
-<h2>Profile</h2>
-<p>東北大学 B4 鈴木潤研究室所属</p>
-<h3>Interest</h3>
-<p>
-  <ul>
-    <li>自然言語処理</li>
-    <li>大規模言語モデル(LLM)</li>
-  </ul>
-</p>
-<h4>Contact</h4>
-<p>taneguchi.akito.t1@dc.tohoku.ac.jp</p>
-</div>
-</main>
-<aside>
-<div id="middle-inner">
-<div class="side-title">menu</div>
-<div class="side">
-<ul>
-<li>記事ページへのリンク</li>
-<li>記事ページへのリンク</li>
-</ul>
-</div>
-</div>
-</aside>
-</div>
-<footer>©2025 種口暁人</footer>
-</div></body>
+<body class="h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center bg-[url('https://picsum.photos/1920/1080?random')]">
+    <div class="bg-gray-200 bg-opacity-90 p-8 rounded-lg shadow-md max-w-xs w-full text-center">
+        <!-- プロフィール画像 -->
+        <div class="mb-4">
+            <img src="https://avatars.githubusercontent.com/lxizaxi?v=4" alt="プロフィール画像" class="w-32 h-32 rounded-full mx-auto">
+        </div>
+        <!-- プロフィール名 -->
+        <h1 class="text-xl font-semibold mb-2">shota@lxizaxi</h1>
+        <!-- プロフィール説明 -->
+        <p class="text-gray-500 text-sm mb-2 italic">
+            System Engineer <a href="#" class="underline" onclick="cv.showModal()">CV</a>
+        </p>
+        <!-- スキルバッジ -->
+        <div class="mb-4">
+            <div class="badge badge-xs">
+                <img src="https://cdn.simpleicons.org/python" width="16">&nbsp;
+                Python
+            </div>
+            <div class="badge badge-xs">
+                <img src="https://cdn.simpleicons.org/javascript" width="16">&nbsp;
+                JavaScript
+            </div>
+            <div class="badge badge-xs">
+                <img src="https://cdn.simpleicons.org/amazonwebservices" width="16">&nbsp;
+                AWS
+            </div>
+            <div class="badge badge-xs">
+                <img src="https://cdn.simpleicons.org/docker" width="16">&nbsp;
+                Docker
+            </div>
+            <div class="badge badge-xs">
+                <img src="https://cdn.simpleicons.org/git" width="16">&nbsp;
+                Git
+            </div>
+            <div class="badge badge-xs">
+                <img src="https://cdn.simpleicons.org/githubactions" width="16"></img>&nbsp;
+                Github Actions
+            </div>
+            <div class="badge badge-xs">
+                <img src="https://cdn.simpleicons.org/terraform" width="16">&nbsp;
+                Terraform
+            </div>
+        </div>
+        <!-- リンク集 -->
+        <div class="flex space-x-4">
+            <a href="https://github.com/lxizaxi" class="flex items-center justify-center w-full bg-gray-800 text-white py-2 rounded-lg">
+                <i class="fab fa-github text-2xl"></i>
+            </a>
+            <a href="https://x.com/lxizaxi" class="flex items-center justify-center w-full bg-black text-white py-2 rounded-lg">
+                <i class="fab fa-x-twitter text-2xl"></i>
+            </a>
+            <a href="https://qiita.com/lxizaxi" class="bg-white flex items-center justify-center w-full text-black py-2 rounded-lg">
+                <img src="https://cdn.simpleicons.org/qiita" width="35"></img>
+            </a>
+            <a href="https://yamap.com/users/1625680" class="bg-white flex items-center justify-center w-full text-black py- rounded-lg">
+                <img src="assets/yamap_logo_color_triangle.svg" width="40"></img>
+            </a>
+        </div>
+    </div>
+</body>
+<dialog id="cv" class="modal">
+
+    <div class="modal-box">
+      <form method="dialog">
+        <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+      </form>
+      
+      <ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+        <li>
+            <hr />
+            <div class="timeline-middle">
+            <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+            class="h-5 w-5">
+            <path
+                fill-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                clip-rule="evenodd" />
+            </svg>
+            </div>
+            <div class="timeline-start mb-10 md:text-end">
+                <time class="font-mono">2015-2019</time>
+                <div class="text-sm font-black">Bachelor of Science, Physics</div>
+                <div class="text-xs italic">
+                    ”Replica Exchange Method and Its Evaluation Using the One-Dimensional Ising Model”
+                </div>
+            </div>
+            <hr />
+        </li>
+        <li>
+            <hr />
+            <div class="timeline-middle">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              class="h-5 w-5">
+              <path
+                fill-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div class="timeline-end md:mb-10">
+            <time class="font-mono">2019-2021</time>
+            <div class="text-sm font-black">Master of Science, Physics</div>
+            <div class="text-xs italic">
+                ”Development of a Method for Estimating Generalized Density of States 
+                Using the Multidimensional NVE Replica Exchange Method”
+            </div>
+          </div>
+          <hr />
+        </li>
+        <li>
+          <hr />
+          <div class="timeline-middle">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              class="h-5 w-5">
+              <path
+                fill-rule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                clip-rule="evenodd" />
+            </svg>
+          </div>
+          <div class="timeline-start mb-10 md:text-end">
+            <time class="font-mono">2021-Present</time>
+            <div class="text-sm font-black">System Integrater, Japan</div>
+            <div class="text-xs italic">
+                Development of applications and tools related to infrastructure automation
+            </div>
+          </div>
+          <hr />
+        </li>
+      </ul>
+    </div>
+
+    <form method="dialog" class="modal-backdrop">
+        <button>close</button>
+    </form>
+    
+</dialog>
 </html>
