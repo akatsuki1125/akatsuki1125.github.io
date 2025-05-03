@@ -8,8 +8,9 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.19/dist/full.min.css" rel="stylesheet" type="text/css" />
 </head>
-<body class="bg-cover bg-center bg-no-repeat flex flex-col items-center justify-start overflow-y-auto bg-[url('https://picsum.photos/1920/1080?random')] scroll-smooth bg-fixed">
-    <section id="profile" class="bg-gray-200 bg-opacity-90 p-8 rounded-lg shadow-md max-w-xs w-full text-center">
+<body class="min-h-screen bg-cover bg-center bg-no-repeat flex flex-col items-center justify-center overflow-y-auto bg-[url('https://picsum.photos/1920/1080?random')] scroll-smooth bg-fixed">
+    <section id="profile" class="h-screen flex flex-col justify-center items-center">
+      <div class="bg-gray-200 bg-opacity-90 p-8 rounded-lg shadow-md max-w-xs w-full text-center">
         <!-- プロフィール画像 -->
         <div class="mb-4">
           <img src="https://avatars.githubusercontent.com/akatsuki1125" alt="プロフィール画像" class="w-32 h-32 rounded-full mx-auto">
@@ -52,8 +53,9 @@
                 <i class="fab fa-x-twitter text-2xl"></i>
             </a>
         </div>
+      </div>
+      <a href="#details" class="mt-4 text-white text-2xl animate-bounce">⬇</a>
     </section>
-    <a href="#details" class="mt-4 text-white text-2xl animate-bounce">⬇</a>
     <!-- スクロールで表示される追加情報 -->
     <section id="details" class="min-h-screen mt-12 bg-white bg-opacity-90 px-8 py-12 rounded-lg max-w-2xl w-full mx-auto text-left">
         <h2 class="text-2xl font-semibold mb-4">経歴</h2>
