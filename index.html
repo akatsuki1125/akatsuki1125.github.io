@@ -54,7 +54,7 @@
             </a>
         </div>
       </div>
-      <a href="#details" class="mt-4 text-white text-2xl animate-bounce">⬇</a>
+      <a id="scroll-button" class="mt-4 text-white text-2xl animate-bounce cursor-pointer">⬇</a>
     </section>
     <!-- スクロールで表示される追加情報 -->
     <section id="details" class="h-screen flex items-center justify-center">
@@ -85,6 +85,12 @@
     </ul>
   </div>
 </section>
+  <script>
+    document.getElementById('scroll-button').addEventListener('click', function (e) {
+      e.preventDefault();
+      document.getElementById('details').scrollIntoView({ behavior: 'smooth' });
+    });
+  </script>
 </body>
 <dialog id="cv" class="modal">
 
