@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Resume - Start Bootstrap Theme</title>
+        <meta name="description" content="Taneguchi Akito｜Tohoku University M1 Portfolio" />
+        <meta name="author" content="Taneguchi Akito" />
+        <title>Taneguchi Akito Portfolio</title>
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <script src="https://use.fontawesome.com/releases/v6.5.2/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700&display=swap" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,700,800&display=swap" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
@@ -19,18 +19,20 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Akito Taneguchi</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
+                <!-- <span class="d-block d-lg-none">種口 暁人</span> -->
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="Taneguchi Akito" /></span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li> -->
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#publication">Publication</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li> -->
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Lifestyle</a></li> -->
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -43,55 +45,78 @@
                         Akito
                         <span class="text-primary">Taneguchi</span>
                     </h1>
-                    <div class="subheading mb-5">
-                        Graduate School of Information Sciences, Tohoku University・Failab・M1
-                        <a href="mailto:name@email.com">taneguchi.akito.t1@dc.tohoku.ac.jp</a>
+                    <div class="subheading mb-4">
+                        <span class="affiliations">Failab / Tohoku NLP Group / Tohoku University GSIS M1</span>
                     </div>
-                    <p class="lead mb-5">I'm currently engaged in research on Vision Language Models (VLM). In addition, I'm working on elucidating the interpretability and internal mechanisms of VLM models, specifically how they integrate visual and linguistic information to make decisions, as well as conducting research aimed at developing more high-performance VLM models.</p>
+                    <p class="lead mb-4">マルチモーダルAIと創造的体験の接続に情熱を燃やすM1。研究では LVLM に関する研究を行っています。</p>
+                    <ul class="about-highlights">
+                        <li><span>Research Focus</span> VLMの解釈性、視覚言語統合の評価指標、</li>
+                        <li><span>Now Playing</span> Failabでの研究プロジェクト</li>
+                        <li><span>Next Goal</span> 2026年度国際学会での発表</li>
+                    </ul>
                     <div class="social-icons">
-                        <a class="social-icon" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="#!"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a>
+                        <a class="social-icon" href="https://github.com/akatsuki1125" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="https://x.com/a_1125_tane" aria-label="X"><i class="fab fa-x-twitter"></i></a>
                     </div>
                 </div>
             </section>
             <hr class="m-0" />
-            <!-- Experience-->
-            <section class="resume-section" id="experience">
+            <!-- Projects-->
+            <!-- <section class="resume-section" id="projects">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Experience</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Senior Web Developer</h3>
-                            <div class="subheading mb-3">Intelitec Solutions</div>
-                            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2013 - Present</span></div>
+                    <h2 class="mb-5">Projects</h2>
+                    <div class="project-grid">
+                        <article class="project-card">
+                            <h3>Polaris VLM Probe</h3>
+                            <p class="project-meta">2025｜研究プロトタイピング</p>
+                            <p class="project-copy">視覚・言語表現のクラスタを可視化するインタラクティブダッシュボード。ハイライト抽出とGrad-CAM解析をVue + Pythonで連携し、研究チームの仮説検証を高速化。</p>
+                            <ul>
+                                <li>チーム: Failab 4名</li>
+                                <li>主担当: データ前処理、UIモーション設計</li>
+                            </ul>
+                        </article>
+                        <article class="project-card">
+                            <h3>Campus Quest</h3>
+                            <p class="project-meta">2024｜学生エンジニア団体 Re:make</p>
+                            <p class="project-copy">新入生向けに学内スポットをARで案内するスマホアプリ。Azure Spatial Anchorsを活用し、1週間でMVPを公開。リリース後2週間で1,200DLを記録。</p>
+                            <ul>
+                                <li>役割: 体験設計、API統合、デザインシステム</li>
+                            </ul>
+                        </article>
+                        <article class="project-card">
+                            <h3>夜更かしLTフェス</h3>
+                            <p class="project-meta">2023｜主催イベント</p>
+                            <p class="project-copy">学生×若手エンジニア向けナイトLT会。テーマ選定から配信までを統括し、参加者満足度4.7/5。スポンサー協賛を獲得し、継続開催中。</p>
+                            <ul>
+                                <li>成果: コミュニティ人数 3→60名、配信視聴1,800回</li>
+                            </ul>
+                        </article>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Web Developer</h3>
-                            <div class="subheading mb-3">Intelitec Solutions</div>
-                            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">December 2011 - March 2013</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Junior Web Designer</h3>
-                            <div class="subheading mb-3">Shout! Media Productions</div>
-                            <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2010 - December 2011</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Web Design Intern</h3>
-                            <div class="subheading mb-3">Shout! Media Productions</div>
-                            <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2008 - June 2010</span></div>
+                </div>
+            </section>
+            <hr class="m-0" /> -->
+            <!-- Publication-->
+            <section class="resume-section" id="publication">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Publication</h2>
+                    <div class="publication-list">
+                        <details class="publication-item" open>
+                            <summary>
+                                <span class="publication-title">日本語によるコード生成能力の正確な評価に向けて</span>
+                                <span class="publication-venue">言語処理学会2025</span>
+                            </summary>
+                            <p class="publication-authors"><b>種口暁人</b>, 藤井諒, 森下睦, 鈴木潤</p>
+                        </details>
+                        <details class="publication-item">
+                            <summary>
+                                <span class="publication-title">追加の論文タイトル</span>
+                                <span class="publication-venue">掲載予定／更新予定</span>
+                            </summary>
+                            <p class="publication-authors"></p>
+                            <div class="publication-viewer placeholder">
+                                <p class="publication-placeholder">`assets/papers/` にPDFを配置するとここにプレビューが表示されます。</p>
+                            </div>
+                        </details>
                     </div>
                 </div>
             </section>
@@ -100,22 +125,31 @@
             <section class="resume-section" id="education">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Education</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">University of Colorado Boulder</h3>
-                            <div class="subheading mb-3">Bachelor of Science</div>
-                            <div>Computer Science - Web Development Track</div>
-                            <p>GPA: 3.23</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2006 - May 2010</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">James Buchanan High School</h3>
-                            <div class="subheading mb-3">Technology Magnet Program</div>
-                            <p>GPA: 3.56</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2002 - May 2006</span></div>
+                    <div class="education-timeline">
+                        <article class="timeline-card">
+                            <!-- <div class="timeline-icon" aria-hidden="true">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div> -->
+                            <div class="timeline-content">
+                                <div class="timeline-header">
+                                    <h3 class="timeline-title mb-1">東北大学大学院 情報科学研究科</h3>
+                                    <span class="timeline-period">2025年4月 – 現在</span>
+                                </div>
+                                <div class="timeline-detail">システム情報科学専攻 M1</div>
+                            </div>
+                        </article>
+                        <article class="timeline-card">
+                            <!-- <div class="timeline-icon" aria-hidden="true">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div> -->
+                            <div class="timeline-content">
+                                <div class="timeline-header">
+                                    <h3 class="timeline-title mb-1">東北大学 工学部</h3>
+                                    <span class="timeline-period">2021年4月 – 2025年3月</span>
+                                </div>
+                                <div class="timeline-detail">電気情報物理工学科</div>
+                            </div>
+                        </article>
                     </div>
                 </div>
             </section>
@@ -124,95 +158,42 @@
             <section class="resume-section" id="skills">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <div class="subheading mb-3">Toolset</div>
                     <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-angular"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-sass"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-less"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-python" aria-label="Python"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-js-square" aria-label="JavaScript"></i></li>
+                        <!-- <li class="list-inline-item"><i class="fab fa-torch" aria-label="PyTorch"></i></li> -->
+                        <!-- <li class="list-inline-item"><i class="fab fa-figma" aria-label="Figma"></i></li> -->
+                        <li class="list-inline-item"><i class="fab fa-aws" aria-label="AWS"></i></li>
                     </ul>
-                    <div class="subheading mb-3">Workflow</div>
+                    <!-- <div class="subheading mb-3">Workflow</div> -->
                     <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Mobile-First, Responsive Design
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Browser Testing & Debugging
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Functional Teams
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Agile Development & Scrum
-                        </li>
+                        <!-- <li><span class="fa-li"><i class="fas fa-check"></i></span>PyTorch, OpenCVを用いたマルチモーダルモデリングと評価</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Next.js × Firebaseでのプロトタイプ開発と迅速なユーザーテスト</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Figma/After Effectsでのモーションデザインとチーム共有</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Notion / ClickUpを活用したスプリント運営、リーダーシップ</li> -->
                     </ul>
                 </div>
             </section>
             <hr class="m-0" />
             <!-- Interests-->
-            <section class="resume-section" id="interests">
+            <!-- <section class="resume-section" id="interests">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Interests</h2>
-                    <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+                    <h2 class="mb-5">Lifestyle</h2>
+                    <p>コアタイム後は仙台のカフェでUIスケッチを描いたり、ナイトランで頭を切り替えるのが定番。週末は仲間とボードゲームを開発したり、フォトウォークで撮った素材を用いてVJ映像を制作しています。音楽はCity PopとLo-fi HipHopをループ再生、最近は地下鉄でShadientと向き合うのが密かな楽しみ。</p>
+                    <p class="mb-0">学内コミュニティの運営や高校生向けのハンズオン講師もライフワーク。好きなものを全力で楽しむ空気が、プロダクトの熱量にも直結すると信じています。</p>
                 </div>
             </section>
-            <hr class="m-0" />
-            <!-- Awards-->
-            <section class="resume-section" id="awards">
+            <hr class="m-0" /> -->
+            <!-- Contact-->
+            <section class="resume-section" id="contact">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Awards & Certifications</h2>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Google Analytics Certified Developer
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Mobile Web Specialist - Google Certification
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            2
-                            <sup>nd</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - James Buchanan High School - Hackathon 2006
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            3
-                            <sup>rd</sup>
-                            Place - James Buchanan High School - Hackathon 2005
-                        </li>
+                    <h2 class="mb-5">Contact</h2>
+                    <!-- <p>コラボレーションやイベント登壇のご相談はメール、もしくは各種SNSのDMへお気軽にどうぞ。共同研究・受託開発案件はFailabのメンター陣とも連携可能です。</p> -->
+                    <ul class="contact-list">
+                        <li><i class="fas fa-envelope"></i> taneguchi.akito.t1@dc.tohoku.ac.jp</li>
+                        <li><i class="fab fa-github"></i> github.com/akatsuki1125</li>
+                        <li><i class="fab fa-x-twitter"></i> @a_1125_tane</li>
                     </ul>
                 </div>
             </section>
